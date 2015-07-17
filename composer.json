@@ -1,0 +1,22 @@
+{
+  "name": "media24si/staticfy",
+  "description": "Laravel 5 Static site generator",
+  "license": "MIT",
+  "keywords": ["laravel", "laravel 5", "static"],
+  "homepage": "https://github.com/Media24si/Staticfy",
+  "authors": [
+    {
+      "name": "Bostjan Oblak",
+      "email": "bostjan@muha.cc"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "laravel/framework": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Media24si\\Staticfy\\": "src/"
+    }
+  }
+}
